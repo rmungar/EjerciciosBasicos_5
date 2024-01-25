@@ -1,4 +1,8 @@
-
+/**
+ * La clase tiempo cuenta con los parámetros:
+ * @property hora: Int -> Entero que registra un número que representa las horas
+ * @constructor Crea una instancia de tiempo con hora
+ */
 class tiempo(var hora: Int){
      init {
          require(hora <= 24){"No se puede superar el límite de horas"}
